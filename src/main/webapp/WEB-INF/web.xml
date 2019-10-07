@@ -2,11 +2,20 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>UsuarioServletSA</servlet-name>
-        <servlet-class>terceiroano.recheio.UsuarioServletSA</servlet-class>
+        <servlet-class>servlets.UsuarioServletSA</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UsuarioServletD</servlet-name>
-        <servlet-class>terceiroano.recheio.UsuarioServletD</servlet-class>
+        <servlet-class>servlets.UsuarioServletD</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FotoServletS</servlet-name>
+        <servlet-class>servlets.FotoServletS</servlet-class>
+        <multipart-config>
+            <max-file-size>418018841</max-file-size>
+            <max-request-size>418018841</max-request-size>
+            <file-size-threshold>418018841</file-size-threshold>
+        </multipart-config>
     </servlet>
     <servlet-mapping>
         <servlet-name>UsuarioServletSA</servlet-name>
@@ -15,6 +24,10 @@
     <servlet-mapping>
         <servlet-name>UsuarioServletD</servlet-name>
         <url-pattern>/UsuarioServletD</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FotoServletS</servlet-name>
+        <url-pattern>/FotoServletS</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
