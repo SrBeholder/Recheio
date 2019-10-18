@@ -1,5 +1,9 @@
-C:\Users\Daniel\Documents\NetBeansProjects\Recheio\src\main\java\terceiroano\recheio\UsuarioServletD.java
-C:\Users\Daniel\Documents\NetBeansProjects\Recheio\src\main\java\terceiroano\recheio\UsuarioControle.java
-C:\Users\Daniel\Documents\NetBeansProjects\Recheio\src\main\java\utilidades\HibernateUtil.java
-C:\Users\Daniel\Documents\NetBeansProjects\Recheio\src\main\java\entidades\Usuario.java
-C:\Users\Daniel\Documents\NetBeansProjects\Recheio\src\main\java\terceiroano\recheio\UsuarioServletSA.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\servlets\FotoServletS.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\entidades\Foto.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\utilidades\HibernateUtil.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\controles\FotoControle.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\entidades\Usuario.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\servlets\UsuarioServletD.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\servlets\FotoServletD.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\controles\UsuarioControle.java
+C:\Users\Daniel\Documentos\Workspace\Recheio-master\src\main\java\servlets\UsuarioServletSA.java

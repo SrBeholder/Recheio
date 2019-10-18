@@ -5,7 +5,7 @@
  */
 package utilidades;
 
-import entidades.Usuario;
+import entidades.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
@@ -34,6 +34,7 @@ public class HibernateUtil {
         AnnotationConfiguration cfg = new AnnotationConfiguration();
         cfg.configure();
         cfg.addAnnotatedClass(Usuario.class);
+        cfg.addAnnotatedClass(Foto.class);
         factory = cfg.buildSessionFactory();
     }
 

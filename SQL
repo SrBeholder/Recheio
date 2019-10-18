@@ -23,3 +23,19 @@ ALTER TABLE public.usuario
 CREATE SEQUENCE public.sq_usuario;
 ALTER TABLE public.sq_usuario
   OWNER TO postgres;
+
+CREATE TABLE public.foto
+(
+  id numeric NOT NULL,
+  foto bytea,
+  extensao text,
+  id_usuario numeric,
+  CONSTRAINT pk_foto PRIMARY KEY (id),
+  CONSTRAINT fk_usuario FOREIGN KEY (id_usuario)
+  REFERENCES public.usuario (id) MATCH SIMPLE
+  ON UPDATE NO ACTION ON DELETE NO ACTION
+)
+
+CREATE SEQUENCE public.sq_foto
+ALTER TABLE public.sq_foto
+  OWNER TO postgres;
